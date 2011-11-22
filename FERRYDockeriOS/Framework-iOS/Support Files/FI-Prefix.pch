@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'FI' target in the 'FI' project
+//
+
+#ifdef __OBJC__
+	#import <UIKit/UIKit.h>
+#endif

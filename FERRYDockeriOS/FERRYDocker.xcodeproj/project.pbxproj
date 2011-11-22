@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		60ED4255136C60AC00F3D3ED /* Build All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 60ED4256136C60AC00F3D3ED /* Build configuration list for PBXAggregateTarget "Build All" */;
+			buildPhases = (
+				60ED425D136C60D800F3D3ED /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Build All";
+			productName = FI;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		17DB9D7A1445AFCB005BBED9 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DB9D751445AFCB005BBED9 /* NSDataAdditions.m */; };
+		17DB9D7B1445AFCB005BBED9 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DB9D771445AFCB005BBED9 /* TBXML.m */; };
+		17DB9D7C1445AFCB005BBED9 /* FERRYDocker.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DB9D791445AFCB005BBED9 /* FERRYDocker.m */; };
+		17DB9D7D1445AFD4005BBED9 /* NSDataAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 17DB9D741445AFCA005BBED9 /* NSDataAdditions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		17DB9D7E1445AFD6005BBED9 /* TBXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 17DB9D761445AFCB005BBED9 /* TBXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17DB9D7F1445AFD8005BBED9 /* FERRYDocker.h in Headers */ = {isa = PBXBuildFile; fileRef = 17DB9D781445AFCB005BBED9 /* FERRYDocker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17DB9DB11445B139005BBED9 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DB9D771445AFCB005BBED9 /* TBXML.m */; };
+		17DB9DB21445B142005BBED9 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DB9D751445AFCB005BBED9 /* NSDataAdditions.m */; };
+		17DB9DB31445B145005BBED9 /* FERRYDocker.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DB9D791445AFCB005BBED9 /* FERRYDocker.m */; };
+		17DB9DDF1445B370005BBED9 /* FERRY.h in Headers */ = {isa = PBXBuildFile; fileRef = 17DB9DDE1445B333005BBED9 /* FERRY.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60EA0AB813CB206800A0F61F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60EA0AB413CB206800A0F61F /* InfoPlist.strings */; };
+		60EA0ABA13CB206800A0F61F /* FI-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 60EA0AB713CB206800A0F61F /* FI-Prefix.pch */; };
+		60EA0AC313CB22DC00A0F61F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ED419B136C58B600F3D3ED /* UIKit.framework */; };
+		60ED419C136C58B600F3D3ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ED419B136C58B600F3D3ED /* UIKit.framework */; };
+		60ED419E136C58B600F3D3ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ED419D136C58B600F3D3ED /* Foundation.framework */; };
+		60ED41A0136C58B600F3D3ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ED419F136C58B600F3D3ED /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17DB9D741445AFCA005BBED9 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		17DB9D751445AFCB005BBED9 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		17DB9D761445AFCB005BBED9 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		17DB9D771445AFCB005BBED9 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		17DB9D781445AFCB005BBED9 /* FERRYDocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FERRYDocker.h; sourceTree = "<group>"; };
+		17DB9D791445AFCB005BBED9 /* FERRYDocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FERRYDocker.m; sourceTree = "<group>"; };
+		17DB9DDE1445B333005BBED9 /* FERRY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FERRY.h; sourceTree = "<group>"; };
+		60EA0A9F13CB1FBC00A0F61F /* FI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FI.framework; path = FERRYDocker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EA0AB513CB206800A0F61F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60EA0AB613CB206800A0F61F /* FI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FI-Info.plist"; sourceTree = "<group>"; };
+		60EA0AB713CB206800A0F61F /* FI-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FI-Prefix.pch"; sourceTree = "<group>"; };
+		60ED4197136C58B600F3D3ED /* FERRYDocker APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FERRYDocker APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60ED419B136C58B600F3D3ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60ED419D136C58B600F3D3ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60ED419F136C58B600F3D3ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60ED4233136C5F3000F3D3ED /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60EA0A9C13CB1FBC00A0F61F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EA0AC313CB22DC00A0F61F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60ED4194136C58B600F3D3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60ED419C136C58B600F3D3ED /* UIKit.framework in Frameworks */,
+				60ED419E136C58B600F3D3ED /* Foundation.framework in Frameworks */,
+				60ED41A0136C58B600F3D3ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60EA0AB313CB206800A0F61F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60EA0AB413CB206800A0F61F /* InfoPlist.strings */,
+				60EA0AB613CB206800A0F61F /* FI-Info.plist */,
+				60EA0AB713CB206800A0F61F /* FI-Prefix.pch */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		60ED418C136C58B600F3D3ED = {
+			isa = PBXGroup;
+			children = (
+				60ED42A5136C6A4900F3D3ED /* FERRYDocker */,
+				60ED419A136C58B600F3D3ED /* Frameworks */,
+				60ED4198136C58B600F3D3ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60ED4198136C58B600F3D3ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60ED4197136C58B600F3D3ED /* FERRYDocker APP.app */,
+				60EA0A9F13CB1FBC00A0F61F /* FI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60ED419A136C58B600F3D3ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60ED419B136C58B600F3D3ED /* UIKit.framework */,
+				60ED419D136C58B600F3D3ED /* Foundation.framework */,
+				60ED419F136C58B600F3D3ED /* CoreGraphics.framework */,
+				60ED4233136C5F3000F3D3ED /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60ED42A5136C6A4900F3D3ED /* FERRYDocker */ = {
+			isa = PBXGroup;
+			children = (
+				60ED42A6136C6A4900F3D3ED /* Source */,
+				60EA0AB313CB206800A0F61F /* Support Files */,
+			);
+			name = FERRYDocker;
+			path = "Framework-iOS";
+			sourceTree = "<group>";
+		};
+		60ED42A6136C6A4900F3D3ED /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				17DB9D741445AFCA005BBED9 /* NSDataAdditions.h */,
+				17DB9D751445AFCB005BBED9 /* NSDataAdditions.m */,
+				17DB9D761445AFCB005BBED9 /* TBXML.h */,
+				17DB9D771445AFCB005BBED9 /* TBXML.m */,
+				17DB9D781445AFCB005BBED9 /* FERRYDocker.h */,
+				17DB9D791445AFCB005BBED9 /* FERRYDocker.m */,
+				17DB9DDE1445B333005BBED9 /* FERRY.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		60EA0AAB13CB1FCC00A0F61F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DB9DDF1445B370005BBED9 /* FERRY.h in Headers */,
+				17DB9D7F1445AFD8005BBED9 /* FERRYDocker.h in Headers */,
+				17DB9D7E1445AFD6005BBED9 /* TBXML.h in Headers */,
+				17DB9D7D1445AFD4005BBED9 /* NSDataAdditions.h in Headers */,
+				60EA0ABA13CB206800A0F61F /* FI-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		60EA0A9E13CB1FBC00A0F61F /* FERRYDocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EA0AA813CB1FBC00A0F61F /* Build configuration list for PBXNativeTarget "FERRYDocker" */;
+			buildPhases = (
+				60EA0A9B13CB1FBC00A0F61F /* Sources */,
+				60EA0A9C13CB1FBC00A0F61F /* Frameworks */,
+				60EA0A9D13CB1FBC00A0F61F /* Resources */,
+				60EA0AAB13CB1FCC00A0F61F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FERRYDocker;
+			productName = FI;
+			productReference = 60EA0A9F13CB1FBC00A0F61F /* FI.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+		60ED4196136C58B600F3D3ED /* FERRYDocker APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60ED41B8136C58B600F3D3ED /* Build configuration list for PBXNativeTarget "FERRYDocker APP" */;
+			buildPhases = (
+				60ED4193136C58B600F3D3ED /* Sources */,
+				60ED4194136C58B600F3D3ED /* Frameworks */,
+				60ED4195136C58B600F3D3ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FERRYDocker APP";
+			productName = "Framework-iOS";
+			productReference = 60ED4197136C58B600F3D3ED /* FERRYDocker APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60ED418E136C58B600F3D3ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "DB-Interactive";
+			};
+			buildConfigurationList = 60ED4191136C58B600F3D3ED /* Build configuration list for PBXProject "FERRYDocker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60ED418C136C58B600F3D3ED;
+			productRefGroup = 60ED4198136C58B600F3D3ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60ED4196136C58B600F3D3ED /* FERRYDocker APP */,
+				60EA0A9E13CB1FBC00A0F61F /* FERRYDocker */,
+				60ED4255136C60AC00F3D3ED /* Build All */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60EA0A9D13CB1FBC00A0F61F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EA0AB813CB206800A0F61F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60ED4195136C58B600F3D3ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60ED425D136C60D800F3D3ED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\nFMK_NAME=FERRYDocker\nFMK_VERSION=A\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\n# Creates and renews the final product folder.\nmkdir -p \"${INSTALL_DIR}\"\nmkdir -p \"${INSTALL_DIR}/Versions\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers\"\n\n# Creates the internal links.\n# It MUST uses relative path, otherwise will not work when the folder is copied/moved.\nln -s \"${FMK_VERSION}\" \"${INSTALL_DIR}/Versions/Current\"\nln -s \"Versions/Current/Headers\" \"${INSTALL_DIR}/Headers\"\nln -s \"Versions/Current/Resources\" \"${INSTALL_DIR}/Resources\"\nln -s \"Versions/Current/${FMK_NAME}\" \"${INSTALL_DIR}/${FMK_NAME}\"\n\n# Copies the headers and resources files to the final product folder.\ncp -R \"${DEVICE_DIR}/Headers/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers/\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/\"\n\n# Removes the binary and header from the resources folder.\nrm -r \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/Headers\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/${FMK_NAME}\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/Versions/${FMK_VERSION}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60EA0A9B13CB1FBC00A0F61F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DB9DB31445B145005BBED9 /* FERRYDocker.m in Sources */,
+				17DB9DB21445B142005BBED9 /* NSDataAdditions.m in Sources */,
+				17DB9DB11445B139005BBED9 /* TBXML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60ED4193136C58B600F3D3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DB9D7A1445AFCB005BBED9 /* NSDataAdditions.m in Sources */,
+				17DB9D7B1445AFCB005BBED9 /* TBXML.m in Sources */,
+				17DB9D7C1445AFCB005BBED9 /* FERRYDocker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60EA0AB413CB206800A0F61F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60EA0AB513CB206800A0F61F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60EA0AA913CB1FBC00A0F61F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Framework-iOS/Support Files/FI-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GENERATE_PKGINFO_FILE = NO;
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "";
+				INFOPLIST_FILE = "Framework-iOS/Support Files/FI-Info.plist";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INFOPLIST_OUTPUT_FORMAT = "same-as-input";
+				INFOPLIST_PREFIX_HEADER = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				PLIST_FILE_OUTPUT_FORMAT = "same-as-input";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REZ_SEARCH_PATHS = "";
+				SDKROOT = iphoneos;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		60EA0AAA13CB1FBC00A0F61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Framework-iOS/Support Files/FI-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GENERATE_PKGINFO_FILE = NO;
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "";
+				INFOPLIST_FILE = "Framework-iOS/Support Files/FI-Info.plist";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INFOPLIST_OUTPUT_FORMAT = "same-as-input";
+				INFOPLIST_PREFIX_HEADER = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				PLIST_FILE_OUTPUT_FORMAT = "same-as-input";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REZ_SEARCH_PATHS = "";
+				SDKROOT = iphoneos;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		60ED41B6136C58B600F3D3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60ED41B7136C58B600F3D3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		60ED41B9136C58B600F3D3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Framework-iOS APP/Support Files/Framework-iOS-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Framework-iOS APP/Support Files/Framework-iOS-Info.plist";
+				PRODUCT_NAME = "FERRYDocker APP";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60ED41BA136C58B600F3D3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Framework-iOS APP/Support Files/Framework-iOS-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Framework-iOS APP/Support Files/Framework-iOS-Info.plist";
+				PRODUCT_NAME = "FERRYDocker APP";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		60ED4257136C60AC00F3D3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60ED4258136C60AC00F3D3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60EA0AA813CB1FBC00A0F61F /* Build configuration list for PBXNativeTarget "FERRYDocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EA0AA913CB1FBC00A0F61F /* Debug */,
+				60EA0AAA13CB1FBC00A0F61F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60ED4191136C58B600F3D3ED /* Build configuration list for PBXProject "FERRYDocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60ED41B6136C58B600F3D3ED /* Debug */,
+				60ED41B7136C58B600F3D3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60ED41B8136C58B600F3D3ED /* Build configuration list for PBXNativeTarget "FERRYDocker APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60ED41B9136C58B600F3D3ED /* Debug */,
+				60ED41BA136C58B600F3D3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60ED4256136C60AC00F3D3ED /* Build configuration list for PBXAggregateTarget "Build All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60ED4257136C60AC00F3D3ED /* Debug */,
+				60ED4258136C60AC00F3D3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60ED418E136C58B600F3D3ED /* Project object */;
+}

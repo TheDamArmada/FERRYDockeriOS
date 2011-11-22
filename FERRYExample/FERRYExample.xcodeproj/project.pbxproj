@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		174DEEB914487958007109F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174DEEB814487958007109F8 /* UIKit.framework */; };
+		174DEEBB14487958007109F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174DEEBA14487958007109F8 /* Foundation.framework */; };
+		174DEEBD14487958007109F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174DEEBC14487958007109F8 /* CoreGraphics.framework */; };
+		174DEEC314487958007109F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 174DEEC114487958007109F8 /* InfoPlist.strings */; };
+		174DEEC514487958007109F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 174DEEC414487958007109F8 /* main.m */; };
+		174DEEC914487958007109F8 /* FERRYExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 174DEEC814487958007109F8 /* FERRYExampleAppDelegate.m */; };
+		174DEECC14487958007109F8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174DEECA14487958007109F8 /* MainWindow.xib */; };
+		174DEECF14487958007109F8 /* FERRYExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174DEECE14487958007109F8 /* FERRYExampleViewController.m */; };
+		174DEED214487958007109F8 /* FERRYExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174DEED014487958007109F8 /* FERRYExampleViewController.xib */; };
+		174DEED914487972007109F8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 174DEED814487972007109F8 /* libz.dylib */; };
+		17CFBEB814750D3500F8D66E /* ferry.xml in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBE9F14750D3500F8D66E /* ferry.xml */; };
+		17CFBEB914750D3500F8D66E /* ferry_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEA014750D3500F8D66E /* ferry_Background.png */; };
+		17CFBEBA14750D3500F8D66E /* ferry_Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEA114750D3500F8D66E /* ferry_Background@2x.png */; };
+		17CFBEBB14750D3500F8D66E /* ferry_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEA214750D3500F8D66E /* ferry_bg.png */; };
+		17CFBEBC14750D3500F8D66E /* ferry_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEA314750D3500F8D66E /* ferry_bg@2x.png */; };
+		17CFBEBD14750D3500F8D66E /* ferry_borders.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEA414750D3500F8D66E /* ferry_borders.png */; };
+		17CFBEBE14750D3500F8D66E /* ferry_borders@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEA514750D3500F8D66E /* ferry_borders@2x.png */; };
+		17CFBEBF14750D3500F8D66E /* ferry_but_back_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEA614750D3500F8D66E /* ferry_but_back_off.png */; };
+		17CFBEC014750D3500F8D66E /* ferry_but_back_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEA714750D3500F8D66E /* ferry_but_back_off@2x.png */; };
+		17CFBEC114750D3500F8D66E /* ferry_but_back_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEA814750D3500F8D66E /* ferry_but_back_on.png */; };
+		17CFBEC214750D3500F8D66E /* ferry_but_back_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEA914750D3500F8D66E /* ferry_but_back_on@2x.png */; };
+		17CFBEC314750D3500F8D66E /* ferry_but_blue_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEAA14750D3500F8D66E /* ferry_but_blue_off.png */; };
+		17CFBEC414750D3500F8D66E /* ferry_but_blue_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEAB14750D3500F8D66E /* ferry_but_blue_off@2x.png */; };
+		17CFBEC514750D3500F8D66E /* ferry_but_blue_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEAC14750D3500F8D66E /* ferry_but_blue_on.png */; };
+		17CFBEC614750D3500F8D66E /* ferry_but_blue_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEAD14750D3500F8D66E /* ferry_but_blue_on@2x.png */; };
+		17CFBEC714750D3500F8D66E /* ferry_but_BTN_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEAE14750D3500F8D66E /* ferry_but_BTN_off.png */; };
+		17CFBEC814750D3500F8D66E /* ferry_but_BTN_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEAF14750D3500F8D66E /* ferry_but_BTN_off@2x.png */; };
+		17CFBEC914750D3500F8D66E /* ferry_but_BTN_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEB014750D3500F8D66E /* ferry_but_BTN_on.png */; };
+		17CFBECA14750D3500F8D66E /* ferry_but_BTN_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEB114750D3500F8D66E /* ferry_but_BTN_on@2x.png */; };
+		17CFBECB14750D3500F8D66E /* ferry_img_content.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEB214750D3500F8D66E /* ferry_img_content.png */; };
+		17CFBECC14750D3500F8D66E /* ferry_img_content@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEB314750D3500F8D66E /* ferry_img_content@2x.png */; };
+		17CFBECD14750D3500F8D66E /* ferry_tbv_table.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEB414750D3500F8D66E /* ferry_tbv_table.png */; };
+		17CFBECE14750D3500F8D66E /* ferry_tbv_table@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEB514750D3500F8D66E /* ferry_tbv_table@2x.png */; };
+		17CFBECF14750D3500F8D66E /* ferry_Vector-Smart-Object.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEB614750D3500F8D66E /* ferry_Vector-Smart-Object.png */; };
+		17CFBED014750D3500F8D66E /* ferry_Vector-Smart-Object@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CFBEB714750D3500F8D66E /* ferry_Vector-Smart-Object@2x.png */; };
+		17F30D23145AC0F500DA4C99 /* FERRYDocker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F30D22145AC0F500DA4C99 /* FERRYDocker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		174DEEB414487958007109F8 /* FERRYExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FERRYExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		174DEEB814487958007109F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		174DEEBA14487958007109F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		174DEEBC14487958007109F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		174DEEC014487958007109F8 /* FERRYExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FERRYExample-Info.plist"; sourceTree = "<group>"; };
+		174DEEC214487958007109F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		174DEEC414487958007109F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		174DEEC614487958007109F8 /* FERRYExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FERRYExample-Prefix.pch"; sourceTree = "<group>"; };
+		174DEEC714487958007109F8 /* FERRYExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FERRYExampleAppDelegate.h; sourceTree = "<group>"; };
+		174DEEC814487958007109F8 /* FERRYExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FERRYExampleAppDelegate.m; sourceTree = "<group>"; };
+		174DEECB14487958007109F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		174DEECD14487958007109F8 /* FERRYExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FERRYExampleViewController.h; sourceTree = "<group>"; };
+		174DEECE14487958007109F8 /* FERRYExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FERRYExampleViewController.m; sourceTree = "<group>"; };
+		174DEED114487958007109F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FERRYExampleViewController.xib; sourceTree = "<group>"; };
+		174DEED814487972007109F8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		17CFBE9F14750D3500F8D66E /* ferry.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ferry.xml; sourceTree = "<group>"; };
+		17CFBEA014750D3500F8D66E /* ferry_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferry_Background.png; sourceTree = "<group>"; };
+		17CFBEA114750D3500F8D66E /* ferry_Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ferry_Background@2x.png"; sourceTree = "<group>"; };
+		17CFBEA214750D3500F8D66E /* ferry_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferry_bg.png; sourceTree = "<group>"; };
+		17CFBEA314750D3500F8D66E /* ferry_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ferry_bg@2x.png"; sourceTree = "<group>"; };
+		17CFBEA414750D3500F8D66E /* ferry_borders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferry_borders.png; sourceTree = "<group>"; };
+		17CFBEA514750D3500F8D66E /* ferry_borders@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ferry_borders@2x.png"; sourceTree = "<group>"; };
+		17CFBEA614750D3500F8D66E /* ferry_but_back_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferry_but_back_off.png; sourceTree = "<group>"; };
+		17CFBEA714750D3500F8D66E /* ferry_but_back_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ferry_but_back_off@2x.png"; sourceTree = "<group>"; };
+		17CFBEA814750D3500F8D66E /* ferry_but_back_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferry_but_back_on.png; sourceTree = "<group>"; };
+		17CFBEA914750D3500F8D66E /* ferry_but_back_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ferry_but_back_on@2x.png"; sourceTree = "<group>"; };
+		17CFBEAA14750D3500F8D66E /* ferry_but_blue_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferry_but_blue_off.png; sourceTree = "<group>"; };
+		17CFBEAB14750D3500F8D66E /* ferry_but_blue_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ferry_but_blue_off@2x.png"; sourceTree = "<group>"; };
+		17CFBEAC14750D3500F8D66E /* ferry_but_blue_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferry_but_blue_on.png; sourceTree = "<group>"; };
+		17CFBEAD14750D3500F8D66E /* ferry_but_blue_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ferry_but_blue_on@2x.png"; sourceTree = "<group>"; };
+		17CFBEAE14750D3500F8D66E /* ferry_but_BTN_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferry_but_BTN_off.png; sourceTree = "<group>"; };
+		17CFBEAF14750D3500F8D66E /* ferry_but_BTN_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ferry_but_BTN_off@2x.png"; sourceTree = "<group>"; };
+		17CFBEB014750D3500F8D66E /* ferry_but_BTN_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferry_but_BTN_on.png; sourceTree = "<group>"; };
+		17CFBEB114750D3500F8D66E /* ferry_but_BTN_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ferry_but_BTN_on@2x.png"; sourceTree = "<group>"; };
+		17CFBEB214750D3500F8D66E /* ferry_img_content.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferry_img_content.png; sourceTree = "<group>"; };
+		17CFBEB314750D3500F8D66E /* ferry_img_content@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ferry_img_content@2x.png"; sourceTree = "<group>"; };
+		17CFBEB414750D3500F8D66E /* ferry_tbv_table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferry_tbv_table.png; sourceTree = "<group>"; };
+		17CFBEB514750D3500F8D66E /* ferry_tbv_table@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ferry_tbv_table@2x.png"; sourceTree = "<group>"; };
+		17CFBEB614750D3500F8D66E /* ferry_Vector-Smart-Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ferry_Vector-Smart-Object.png"; sourceTree = "<group>"; };
+		17CFBEB714750D3500F8D66E /* ferry_Vector-Smart-Object@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ferry_Vector-Smart-Object@2x.png"; sourceTree = "<group>"; };
+		17F30D22145AC0F500DA4C99 /* FERRYDocker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FERRYDocker.framework; path = ../FERRYDocker.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		174DEEB114487958007109F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F30D23145AC0F500DA4C99 /* FERRYDocker.framework in Frameworks */,
+				174DEED914487972007109F8 /* libz.dylib in Frameworks */,
+				174DEEB914487958007109F8 /* UIKit.framework in Frameworks */,
+				174DEEBB14487958007109F8 /* Foundation.framework in Frameworks */,
+				174DEEBD14487958007109F8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		174DEEA914487958007109F8 = {
+			isa = PBXGroup;
+			children = (
+				17F30D22145AC0F500DA4C99 /* FERRYDocker.framework */,
+				174DEEDC1448799D007109F8 /* Resources */,
+				174DEEBE14487958007109F8 /* FERRYExample */,
+				174DEEB714487958007109F8 /* Frameworks */,
+				174DEEB514487958007109F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		174DEEB514487958007109F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				174DEEB414487958007109F8 /* FERRYExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		174DEEB714487958007109F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				174DEED814487972007109F8 /* libz.dylib */,
+				174DEEB814487958007109F8 /* UIKit.framework */,
+				174DEEBA14487958007109F8 /* Foundation.framework */,
+				174DEEBC14487958007109F8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		174DEEBE14487958007109F8 /* FERRYExample */ = {
+			isa = PBXGroup;
+			children = (
+				174DEEC714487958007109F8 /* FERRYExampleAppDelegate.h */,
+				174DEEC814487958007109F8 /* FERRYExampleAppDelegate.m */,
+				174DEECA14487958007109F8 /* MainWindow.xib */,
+				174DEECD14487958007109F8 /* FERRYExampleViewController.h */,
+				174DEECE14487958007109F8 /* FERRYExampleViewController.m */,
+				174DEED014487958007109F8 /* FERRYExampleViewController.xib */,
+				174DEEBF14487958007109F8 /* Supporting Files */,
+			);
+			path = FERRYExample;
+			sourceTree = "<group>";
+		};
+		174DEEBF14487958007109F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				174DEEC014487958007109F8 /* FERRYExample-Info.plist */,
+				174DEEC114487958007109F8 /* InfoPlist.strings */,
+				174DEEC414487958007109F8 /* main.m */,
+				174DEEC614487958007109F8 /* FERRYExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		174DEEDC1448799D007109F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17CFBE9E14750D3500F8D66E /* ferry exp */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		17CFBE9E14750D3500F8D66E /* ferry exp */ = {
+			isa = PBXGroup;
+			children = (
+				17CFBE9F14750D3500F8D66E /* ferry.xml */,
+				17CFBEA014750D3500F8D66E /* ferry_Background.png */,
+				17CFBEA114750D3500F8D66E /* ferry_Background@2x.png */,
+				17CFBEA214750D3500F8D66E /* ferry_bg.png */,
+				17CFBEA314750D3500F8D66E /* ferry_bg@2x.png */,
+				17CFBEA414750D3500F8D66E /* ferry_borders.png */,
+				17CFBEA514750D3500F8D66E /* ferry_borders@2x.png */,
+				17CFBEA614750D3500F8D66E /* ferry_but_back_off.png */,
+				17CFBEA714750D3500F8D66E /* ferry_but_back_off@2x.png */,
+				17CFBEA814750D3500F8D66E /* ferry_but_back_on.png */,
+				17CFBEA914750D3500F8D66E /* ferry_but_back_on@2x.png */,
+				17CFBEAA14750D3500F8D66E /* ferry_but_blue_off.png */,
+				17CFBEAB14750D3500F8D66E /* ferry_but_blue_off@2x.png */,
+				17CFBEAC14750D3500F8D66E /* ferry_but_blue_on.png */,
+				17CFBEAD14750D3500F8D66E /* ferry_but_blue_on@2x.png */,
+				17CFBEAE14750D3500F8D66E /* ferry_but_BTN_off.png */,
+				17CFBEAF14750D3500F8D66E /* ferry_but_BTN_off@2x.png */,
+				17CFBEB014750D3500F8D66E /* ferry_but_BTN_on.png */,
+				17CFBEB114750D3500F8D66E /* ferry_but_BTN_on@2x.png */,
+				17CFBEB214750D3500F8D66E /* ferry_img_content.png */,
+				17CFBEB314750D3500F8D66E /* ferry_img_content@2x.png */,
+				17CFBEB414750D3500F8D66E /* ferry_tbv_table.png */,
+				17CFBEB514750D3500F8D66E /* ferry_tbv_table@2x.png */,
+				17CFBEB614750D3500F8D66E /* ferry_Vector-Smart-Object.png */,
+				17CFBEB714750D3500F8D66E /* ferry_Vector-Smart-Object@2x.png */,
+			);
+			path = "ferry exp";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		174DEEB314487958007109F8 /* FERRYExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174DEED514487958007109F8 /* Build configuration list for PBXNativeTarget "FERRYExample" */;
+			buildPhases = (
+				174DEEB014487958007109F8 /* Sources */,
+				174DEEB114487958007109F8 /* Frameworks */,
+				174DEEB214487958007109F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FERRYExample;
+			productName = FERRYExample;
+			productReference = 174DEEB414487958007109F8 /* FERRYExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		174DEEAB14487958007109F8 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 174DEEAE14487958007109F8 /* Build configuration list for PBXProject "FERRYExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 174DEEA914487958007109F8;
+			productRefGroup = 174DEEB514487958007109F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				174DEEB314487958007109F8 /* FERRYExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		174DEEB214487958007109F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174DEEC314487958007109F8 /* InfoPlist.strings in Resources */,
+				174DEECC14487958007109F8 /* MainWindow.xib in Resources */,
+				174DEED214487958007109F8 /* FERRYExampleViewController.xib in Resources */,
+				17CFBEB814750D3500F8D66E /* ferry.xml in Resources */,
+				17CFBEB914750D3500F8D66E /* ferry_Background.png in Resources */,
+				17CFBEBA14750D3500F8D66E /* ferry_Background@2x.png in Resources */,
+				17CFBEBB14750D3500F8D66E /* ferry_bg.png in Resources */,
+				17CFBEBC14750D3500F8D66E /* ferry_bg@2x.png in Resources */,
+				17CFBEBD14750D3500F8D66E /* ferry_borders.png in Resources */,
+				17CFBEBE14750D3500F8D66E /* ferry_borders@2x.png in Resources */,
+				17CFBEBF14750D3500F8D66E /* ferry_but_back_off.png in Resources */,
+				17CFBEC014750D3500F8D66E /* ferry_but_back_off@2x.png in Resources */,
+				17CFBEC114750D3500F8D66E /* ferry_but_back_on.png in Resources */,
+				17CFBEC214750D3500F8D66E /* ferry_but_back_on@2x.png in Resources */,
+				17CFBEC314750D3500F8D66E /* ferry_but_blue_off.png in Resources */,
+				17CFBEC414750D3500F8D66E /* ferry_but_blue_off@2x.png in Resources */,
+				17CFBEC514750D3500F8D66E /* ferry_but_blue_on.png in Resources */,
+				17CFBEC614750D3500F8D66E /* ferry_but_blue_on@2x.png in Resources */,
+				17CFBEC714750D3500F8D66E /* ferry_but_BTN_off.png in Resources */,
+				17CFBEC814750D3500F8D66E /* ferry_but_BTN_off@2x.png in Resources */,
+				17CFBEC914750D3500F8D66E /* ferry_but_BTN_on.png in Resources */,
+				17CFBECA14750D3500F8D66E /* ferry_but_BTN_on@2x.png in Resources */,
+				17CFBECB14750D3500F8D66E /* ferry_img_content.png in Resources */,
+				17CFBECC14750D3500F8D66E /* ferry_img_content@2x.png in Resources */,
+				17CFBECD14750D3500F8D66E /* ferry_tbv_table.png in Resources */,
+				17CFBECE14750D3500F8D66E /* ferry_tbv_table@2x.png in Resources */,
+				17CFBECF14750D3500F8D66E /* ferry_Vector-Smart-Object.png in Resources */,
+				17CFBED014750D3500F8D66E /* ferry_Vector-Smart-Object@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		174DEEB014487958007109F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174DEEC514487958007109F8 /* main.m in Sources */,
+				174DEEC914487958007109F8 /* FERRYExampleAppDelegate.m in Sources */,
+				174DEECF14487958007109F8 /* FERRYExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		174DEEC114487958007109F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				174DEEC214487958007109F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		174DEECA14487958007109F8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				174DEECB14487958007109F8 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		174DEED014487958007109F8 /* FERRYExampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				174DEED114487958007109F8 /* en */,
+			);
+			name = FERRYExampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		174DEED314487958007109F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		174DEED414487958007109F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		174DEED614487958007109F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FERRYExample/FERRYExample-Prefix.pch";
+				INFOPLIST_FILE = "FERRYExample/FERRYExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		174DEED714487958007109F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FERRYExample/FERRYExample-Prefix.pch";
+				INFOPLIST_FILE = "FERRYExample/FERRYExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		174DEEAE14487958007109F8 /* Build configuration list for PBXProject "FERRYExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174DEED314487958007109F8 /* Debug */,
+				174DEED414487958007109F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		174DEED514487958007109F8 /* Build configuration list for PBXNativeTarget "FERRYExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174DEED614487958007109F8 /* Debug */,
+				174DEED714487958007109F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 174DEEAB14487958007109F8 /* Project object */;
+}
