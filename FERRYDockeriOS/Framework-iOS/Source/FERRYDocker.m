@@ -71,7 +71,8 @@ typedef enum {
 
 -(UIView *) getViewWithName:(NSString *)viewName
 {
-    return [viewsDict valueForKey:[self sanitizeString:viewName]];
+    
+    return [viewsDict valueForKey:viewName];
 }
 
 -(UIView *) getViewWithId:(int)layerId

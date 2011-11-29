@@ -1,12 +1,30 @@
 FERRYDocker v1.0 Readme
+Library to import and recreate functional interfaces create in Photoshop and exported using FERRYScript
+http://ferry.thedamarmada.com
+
 
 HOW TO INCLUDE IT IN YOUR PROJECT:
 
-1. Add the framework as linked library:	. select on your project 	. select your target	. On "Link Binary with Libraries" click on +	. Select "Add another..."
+1. Add the framework as linked library:
+	. select on your project 
+	. select your target
+	. On "Link Binary with Libraries" click on +
+	. Select "Add another..."
 	. Select FERRYDocker.framework
 
-2. The framework uses TBXML which requires the libz.dylib library.  	. select on your project 	. select your target	. On "Link Binary with Libraries" click on +	. Select "libz.dylib"
-3. Import FERRY Docker to your view/ viewcontroller	. #import <FERRYDocker/FERRY.h> or <FERRYDocker/FERRYDocker.h>METHODS:
+2. The framework uses TBXML which requires the libz.dylib library.
+  	. select on your project 
+	. select your target
+	. On "Link Binary with Libraries" click on +
+	. Select "libz.dylib"
+
+
+3. Import FERRY Docker to your view/ viewcontroller
+	. #import <FERRYDocker/FERRY.h> or <FERRYDocker/FERRYDocker.h>
+
+
+METHODS:
+
 +(FERRYDocker *) buildFromFile:(NSString *)file toView:(UIView *)tgtView;
 
     Recreates the XML file in the specified UIView 
