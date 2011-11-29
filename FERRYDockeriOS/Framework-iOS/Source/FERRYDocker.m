@@ -11,7 +11,6 @@
 
 @interface FERRYDocker (internal) 
 
-
 -(void) parseFile:(NSString *)file toView:(UIView *)tgtView;
 -(void) processNode:(TBXMLElement *)node toView:(UIView *)view;
 -(UIView *) createAndAddNode:(TBXMLElement *)node toView:(UIView *)view;
