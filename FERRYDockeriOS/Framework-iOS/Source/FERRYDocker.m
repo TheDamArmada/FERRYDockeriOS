@@ -11,7 +11,7 @@
 
 @interface FERRYDocker (internal) 
 
--(NSString *) sanitizeString:(NSString *)string;
+
 -(void) parseFile:(NSString *)file toView:(UIView *)tgtView;
 -(void) processNode:(TBXMLElement *)node toView:(UIView *)view;
 -(UIView *) createAndAddNode:(TBXMLElement *)node toView:(UIView *)view;
@@ -71,7 +71,6 @@ typedef enum {
 
 -(UIView *) getViewWithName:(NSString *)viewName
 {
-    
     return [viewsDict valueForKey:viewName];
 }
 
@@ -387,10 +386,5 @@ typedef enum {
 
 
 
--(NSString *) sanitizeString:(NSString *)string
-{
-    NSString *newStr = [string stringByReplacingOccurrencesOfString:@" " withString:@"-"];
-    return newStr;
-}
 
 @end

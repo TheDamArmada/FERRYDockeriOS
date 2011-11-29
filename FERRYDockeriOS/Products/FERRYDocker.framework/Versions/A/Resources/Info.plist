@@ -57,9 +57,9 @@
 	<key>DTSDKName</key>
 	<string>iphoneos5.0</string>
 	<key>DTXcode</key>
-	<string>0420</string>
+	<string>0421</string>
 	<key>DTXcodeBuild</key>
-	<string>4D199</string>
+	<string>4D502</string>
 	<key>MinimumOSVersion</key>
 	<string>3.2</string>
 	<key>NSHumanReadableCopyright</key>
